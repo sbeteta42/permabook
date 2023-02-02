@@ -24,3 +24,5 @@ To access it from outside:
 ```bash
 sudo ssh -L 80:127.0.0.1:80 user@<permabook IP>
 ```
+
+Now you can go on `http://localhost/certa/permabook` on your laptop instead of inside your VM.
