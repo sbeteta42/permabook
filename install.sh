@@ -8,6 +8,6 @@ unzip -d /var/www/html/certa/permabook/ /tmp/sitePermabook/permabook.zip
 chown -R www-data:www-data /var/www/html/certa/permabook
 service apache2 start
 mysql -u root -e "create database permabook;"
-mysql -u root -e "grant all privileges on permabook.* to 'permauser'@'localhost" identified by 'permapass';"
+mysql -u root -e "grant all privileges on permabook.* to 'permauser'@'localhost' identified by 'permapass';"
 mysql -u root -e "flush privileges;"
 mysql -u root permabook < /tmp/sitePermabook/permabook.sql
