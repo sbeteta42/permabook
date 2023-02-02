@@ -15,3 +15,12 @@ To Fuzz the pages id of permabook:
 apt install python3
 python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
 ```
+
+# Access permabook
+
+Permabook is only accessible correcly from localhost(inside of the VM).
+To access it from outside:
+
+```bash
+sudo ssh -L 80:127.0.0.1:80 user@<permabook IP>
+```
