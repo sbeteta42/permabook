@@ -1,8 +1,8 @@
 # permabook
 - Installation DevOps de permabook
 
-# Install
-To install permabook on debian 11 or Ubuntu 20.04:
+# Installation
+Pour installer permabook sur debian 11 ou Ubuntu 20.04 :
 
 ```bash
 apt install curl
@@ -10,20 +10,20 @@ curl https://raw.githubusercontent.com/hivecloud-iris/permabook/main/install.sh 
 ```
 
 # Fuzz
-To Fuzz the pages id of permabook:
+Pour fuzzer l'identifiant des pages du permabook :
 
 ```bash
 apt install python3
 python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
 ```
 
-# Access permabook
+# Accéder à permabook
 
-Permabook is only accessible correcly from localhost(inside of the VM).
-To access it from outside:
+Permabook n'est accessible correctement que depuis localhost (à l'intérieur de la VM).
+Pour y accéder depuis l'extérieur :
 
 ```bash
 sudo ssh -L 80:127.0.0.1:80 user@<permabook IP>
 ```
 
-Now you can go on `http://localhost/certa/permabook` on your laptop instead of inside your VM.
+Maintenant, vous pouvez aller sur `http://localhost/certa/permabook` sur votre ordinateur portable au lieu de l'intérieur de votre VM.
