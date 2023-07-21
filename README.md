@@ -1,5 +1,5 @@
 # permabook
-- Installation DevOps de permabook
+- Installation DevOps de permabook pour les TPs RGPD
 
 # Installation
 Pour installer permabook sur debian 11 ou Ubuntu 20.04 :
