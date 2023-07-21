@@ -1,12 +1,15 @@
 # permabook
 - Installation DevOps de permabook pour les TPs RGPD
 
+# Pré-requis
+OS: Debian 11 / Ubuntu 20.04 Server
+
 # Installation
 Pour installer permabook sur debian 11 ou Ubuntu 20.04 :
 
 ```bash
 apt install curl
-curl https://raw.githubusercontent.com/hivecloud-iris/permabook/main/install.sh | sudo sh -
+curl https://raw.githubusercontent.com/sbeteta42/permabook/main/install.sh | sudo sh -
 ```
 
 # Fuzz
