@@ -1,7 +1,21 @@
+# Mise à jour de l'Os.. Please wait...
+echo "Mise à jour de l'Os.. Please wait..."
 apt update && apt full-upgrade -y
+
+# Installation des dpendances fonctionnelles
+echo " Installation des dpendances fonctionnelles..."
 apt install apache2 mariadb-server mariadb-client php libapache2-mod-php php-cli php-mysql php-zip php-curl php-xml php-gd php-intl php-mbstring php-imagick -y
+
+# On stoppe le service Apache2
+echo "On stoppe le service Apache2" 
 service apache2 stop
+
+# Download de PERMABOOK
+echo "Download de PERMABOOK..."
 wget https://github.com/hivecloud-iris/permabook/raw/main/sitePermabook.zip -O /tmp/sitePermabook.zip
+
+#INSTALLATION DE PERMABOOK
+echo "Installation de PERMABOOK... 
 mkdir -p /var/www/html/certa/permabook
 unzip -d /tmp/ /tmp/sitePermabook.zip
 unzip -d /var/www/html/certa/permabook/ /tmp/sitePermabook/permabook.zip
@@ -11,3 +25,4 @@ mysql -u root -e "create database permabook;"
 mysql -u root -e "grant all privileges on permabook.* to 'permauser'@'localhost' identified by 'permapass';"
 mysql -u root -e "flush privileges;"
 mysql -u root permabook < /tmp/sitePermabook/permabook.sql
+echo " Installation de PERMABOOK terminé."
