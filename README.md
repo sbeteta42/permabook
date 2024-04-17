@@ -1,4 +1,4 @@
-# permabook
+# PermaBook
 - Installation DevOps de permabook pour les TPs RGPD
 
 # Pré-requis
