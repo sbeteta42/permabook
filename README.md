@@ -3,16 +3,16 @@
 
 # Pré-requis
 OS: Debian 11 / Ubuntu 20.04 Server
+openssh-server et curl
 
 # Installation
 Pour installer permabook sur debian 11 ou Ubuntu 20.04 :
 
 ```bash
-apt install curl
 curl https://raw.githubusercontent.com/sbeteta42/permabook/main/install.sh | sudo sh -
 ```
 
-# Fuzz
+# Fuzzing
 Pour fuzzer l'identifiant des pages du permabook :
 
 ```bash
