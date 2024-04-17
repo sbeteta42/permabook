@@ -32,3 +32,5 @@ sudo ssh -L 80:127.0.0.1:80 user@<permabook IP>
 ```
 
 Maintenant, vous pouvez aller sur `http://localhost/certa/permabook` sur votre ordinateur portable au lieu de l'intérieur de votre VM.
+
+Ps: Une documenation plus complère est disponible TP_install_permabook.pdf
