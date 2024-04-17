@@ -18,7 +18,7 @@ wget http://download1.beteta.org:9658/share/FGc-TwVA-k9P6P8E/sitePermabook.zip -
 clear
 
 #INSTALLATION DE PERMABOOK
-echo "Installation de PERMABOOK... 
+echo "Installation de PERMABOOK..." 
 mkdir -p /var/www/html/certa/permabook
 unzip -d /tmp/ /tmp/sitePermabook.zip
 unzip -d /var/www/html/certa/permabook/ /tmp/sitePermabook/permabook.zip
@@ -28,4 +28,4 @@ mysql -u root -e "create database permabook;"
 mysql -u root -e "grant all privileges on permabook.* to 'permauser'@'localhost' identified by 'permapass';"
 mysql -u root -e "flush privileges;"
 mysql -u root permabook < /tmp/sitePermabook/permabook.sql
-echo " Installation de PERMABOOK terminé "
+echo "Installation de PERMABOOK terminé"
