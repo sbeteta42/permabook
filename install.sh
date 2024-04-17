@@ -14,7 +14,7 @@ service apache2 stop
 
 # Download de PERMABOOK
 echo "Download de PERMABOOK..."
-wget https://github.com/hivecloud-iris/permabook/raw/main/sitePermabook.zip -O /tmp/sitePermabook.zip
+wget https://github.com/sbeteta42/permabook/blob/main/sitePermabook.zip -O /tmp/sitePermabook.zip
 clear
 
 #INSTALLATION DE PERMABOOK
