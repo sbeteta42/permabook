@@ -4,7 +4,7 @@ apt update && apt full-upgrade -y
 clear
 
 # Installation des dpendances fonctionnelles
-echo " Installation des dpendances fonctionnelles..."
+echo "Installation des dpendances fonctionnelles..."
 apt install apache2 mariadb-server mariadb-client php libapache2-mod-php php-cli php-mysql php-zip php-curl php-xml php-gd php-intl php-mbstring php-imagick -y
 clear
 
