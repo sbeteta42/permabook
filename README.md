@@ -7,6 +7,8 @@ openssh-server et curl
 
 # Installation
 Pour installer permabook sur debian 11 ou Ubuntu 20.04 :
+- se connecter sur la VM via ssh avec le compte user
+- Faire su -
 
 ```bash
 curl https://raw.githubusercontent.com/sbeteta42/permabook/main/install.sh | sh -
