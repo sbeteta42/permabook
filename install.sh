@@ -4,7 +4,7 @@ apt update && apt full-upgrade -y
 sleep 5
 clear
 
-# Installation des dpendances fonctionnelles
+# Installation des dépendances fonctionnelles
 echo "Installation des dpendances fonctionnelles..."
 sleep 5
 apt install apache2 mariadb-server mariadb-client php libapache2-mod-php php-cli php-mysql php-zip php-curl php-xml php-gd php-intl php-mbstring php-imagick -y
@@ -18,7 +18,7 @@ service apache2 stop
 # Download de PERMABOOK
 echo "Download de PERMABOOK..."
 sleep 5
-wget http://download1.beteta.org:9658/share/FGc-TwVA-k9P6P8E/sitePermabook.zip -O /tmp/sitePermabook.zip
+wget http://download1.beteta.org:24659/share/sl6FJKG7tx_foqiD/sitePermabook.zip -O /tmp/sitePermabook.zip
 clear
 
 #INSTALLATION DE PERMABOOK
