@@ -1,5 +1,8 @@
 # PermaBook
 - Installation DevOps de permabook pour les TPs RGPD
+```bash
+apt update -y && apt install openssh-server git curl python3-lxml -y
+```
 
 # Pré-requis
 OS: Debian 11 / Ubuntu 20.04 Server
