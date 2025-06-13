@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/sbeteta42/permabook/main/install.sh | sh 
 ```
 
 # Fuzzing
-Pour fuzzer l'identifiant des pages du permabook :
+Pour fuzzer l'identifiant des pages du permabook
 
 ```bash
 apt install python3
