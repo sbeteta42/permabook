@@ -47,4 +47,4 @@ http://localhost/certa/permabook
 📄 Documentation
 Une documentation plus complète est disponible ici :
 
-📄 TP_install_permabook.pdf
+📄 https://github.com/sbeteta42/permabook/blob/main/TP_install_permabook.pdf
