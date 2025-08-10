@@ -8,7 +8,7 @@
 ```bash
 apt update -y && apt install openssh-server git curl python3-lxml -y
 ```
-🔧 Installation
+## 🔧 Installation
 
 1.**Connexion à la VM**
 ```bash
@@ -34,7 +34,7 @@ apt install python3
 python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
 ```
 
-🌐 **Accéder à PermaBook depuis l’extérieur**
+5. 🌐 **Accéder à PermaBook depuis l’extérieur**
 - Par défaut, PermaBook n’est accessible que depuis localhost dans la VM.
 - Pour y accéder depuis votre machine :
 
