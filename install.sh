@@ -1,28 +1,31 @@
+# Script DevOps pour PERMABOOK
+# Par sbeteta@beteta.org
+
 # Mise à jour de l'Os.. Please wait...
-echo "Mise à jour de l'Os.. Please wait..."
+echo "[1/5] Mise à jour de l'Os.. Please wait..."
 apt update && apt full-upgrade -y
 sleep 5
 clear
 
 # Installation des dépendances fonctionnelles
-echo "Installation des dpendances fonctionnelles..."
+echo "[2/5] Installation des dépendances fonctionnelles..."
 sleep 5
 apt install apache2 mariadb-server mariadb-client php libapache2-mod-php php-cli php-mysql php-zip php-curl php-xml php-gd php-intl php-mbstring php-imagick -y
 clear
 
 # On stoppe le service Apache2
-echo "On stoppe le service Apache2" 
+echo "[3/5] On stoppe le service Apache2" 
 sleep 5
 service apache2 stop
 
 # Download de PERMABOOK
-echo "Download de PERMABOOK..."
+echo "[4/5] Download de PERMABOOK..."
 sleep 5
 wget http://download1.beteta.org:24659/share/sl6FJKG7tx_foqiD/sitePermabook.zip -O /tmp/sitePermabook.zip
 clear
 
 #INSTALLATION DE PERMABOOK
-echo "Installation de PERMABOOK..."
+echo "[5/5] Installation de PERMABOOK..."
 sleep5
 mkdir -p /var/www/html/certa/permabook
 unzip -d /tmp/ /tmp/sitePermabook.zip
