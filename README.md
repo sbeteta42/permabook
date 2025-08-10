@@ -10,7 +10,7 @@ apt update -y && apt install openssh-server git curl python3-lxml -y
 ```
 ## 🔧 Installation
 
-1.**Connexion à la VM**
+1. **Connexion à la VM**
 ```bash
 ssh user@<permabook_IP>
 ```
