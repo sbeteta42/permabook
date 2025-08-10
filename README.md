@@ -1,8 +1,8 @@
-#📚 PermaBook
-##I nstallation DevOps de PermaBook pour les TPs RGPD.
+# 📚 PermaBook
+## Installation DevOps de PermaBook pour les TPs RGPD.
 
 🚀 Pré-requis
-OS : Debian 11 ou Ubuntu 20.04 Server
+OS: Debian 11 ou Ubuntu 20.04 Server
 Packages : openssh-server, curl, git, python3-lxml
 
 ```bash
