@@ -10,7 +10,7 @@ clear
 # Installation des dépendances fonctionnelles
 echo "[2/5] Installation des dépendances fonctionnelles..."
 sleep 5
-apt install apache2 mariadb-server mariadb-client php libapache2-mod-php php-cli php-mysql php-zip php-curl php-xml php-gd php-intl php-mbstring php-imagick -y
+apt install apache2 mariadb-server mariadb-client php libapache2-mod-php php-cli php-mysql php-zip php-curl php-xml php-gd php-intl php-mbstring php-imagick megatools -y
 clear
 
 # On stoppe le service Apache2
