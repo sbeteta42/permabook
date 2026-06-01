@@ -22,7 +22,6 @@ service apache2 stop
 echo "[4/5] Download de PERMABOOK..."
 sleep 5
 megadl --path /tmp 'https://mega.nz/file/SgAzWKYK#xvxehYh0aVt6ATknm3fOPOG_wLngFiWZ-VybLye7oGk'
-mv /tmp/NOM_DU_FICHIER_TELECHARGE.zip /tmp/sitePermabook.zip
 clear
 
 #INSTALLATION DE PERMABOOK
