@@ -21,7 +21,7 @@ service apache2 stop
 # Download de PERMABOOK
 echo "[4/5] Download de PERMABOOK..."
 sleep 5
-mega-get 'https://mega.nz/file/SgAzWKYK#xvxehYh0aVt6ATknm3fOPOG_wLngFiWZ-VybLye7oGk' /tmp/sitePermabook.zip
+megaget 'https://mega.nz/file/SgAzWKYK#xvxehYh0aVt6ATknm3fOPOG_wLngFiWZ-VybLye7oGk' /tmp/sitePermabook.zip
 clear
 
 #INSTALLATION DE PERMABOOK
