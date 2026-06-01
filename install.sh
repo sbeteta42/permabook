@@ -21,7 +21,7 @@ service apache2 stop
 # Download de PERMABOOK
 echo "[4/5] Download de PERMABOOK..."
 sleep 5
-wget http://download1.beteta.org:24659/share/sl6FJKG7tx_foqiD/sitePermabook.zip -O /tmp/sitePermabook.zip
+wget https://mega.nz/file/SgAzWKYK#xvxehYh0aVt6ATknm3fOPOG_wLngFiWZ-VybLye7oGk -O /tmp/sitePermabook.zip
 clear
 
 #INSTALLATION DE PERMABOOK
