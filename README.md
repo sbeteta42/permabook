@@ -3,10 +3,10 @@
 
 ## 🚀 Pré-requis
 - OS: Debian 11 ou Ubuntu 20.04 Server
-- Packages : openssh-server, curl, git, python3-lxml
+- Packages : openssh-server, curl, git, megatools, python3-lxml
 
 ```bash
-apt update -y && apt install openssh-server git curl python3-lxml -y
+apt update -y && apt install openssh-server git curl python3-lxml megatools -y
 ```
 ## 🔧 Installation
 
