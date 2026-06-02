@@ -190,14 +190,6 @@ curl https://raw.githubusercontent.com/sbeteta42/permabook/main/install.sh | sh 
 
 > ⚠️ **Attention :** cette méthode exécute directement un script distant. Elle est pratique pour un TP rapide, mais il est recommandé de consulter le script avant exécution dans un contexte professionnel.
 
-Méthode recommandée :
-
-```bash
-curl -O https://raw.githubusercontent.com/sbeteta42/permabook/main/install.sh
-cat install.sh
-sh install.sh
-```
-
 ---
 
 ## 🌐 Accès à PermaBook
