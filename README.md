@@ -38,15 +38,13 @@ python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
 - Par défaut, PermaBook n’est accessible que depuis localhost dans la VM.
 - Pour y accéder depuis votre machine perso en SSH: (Pas à execugter dans la VM !)
 
-- Sous GNU/Linux
-``` bash
-sudo ssh -L 80:127.0.0.1:80 user@<permabook_IP>
-
-```
-- Sous Microsoft Windows
-``` bash
-ssh -L 80:127.0.0.1:80 user@<permabook_IP>
-
+  - Sous GNU/Linux
+  ``` bash
+  sudo ssh -L 80:127.0.0.1:80 user@<permabook_IP>
+  ```
+  - Sous Microsoft Windows
+  ``` bash
+  ssh -L 80:127.0.0.1:80 user@<permabook_IP>
 ```
 - Ensuite, ouvrez dans votre navigateur : http://localhost/certa/permabook
 
