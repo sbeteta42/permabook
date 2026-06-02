@@ -36,7 +36,7 @@ python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
 
 5. 🌐 **Accéder à PermaBook depuis l’extérieur**
 - Par défaut, PermaBook n’est accessible que depuis localhost dans la VM.
-- Pour y accéder depuis votre machine perso :
+- Pour y accéder depuis votre machine perso en SSH: (Pas à execugter dans la VM !)
 
 - Sous GNU/Linux
 ``` bash
