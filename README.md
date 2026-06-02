@@ -27,7 +27,7 @@ curl https://raw.githubusercontent.com/sbeteta42/permabook/main/install.sh | sh 
 
 4. 🧪**Fuzzing**
 
-Pour tester (fuzzer) les identifiants de pages du PermaBook :
+Pour tester (fuzzer) les identifiants de pages du PermaBook via ssh ou sur la VM directement :
 
 ``` bash
 apt install python3
@@ -36,7 +36,7 @@ python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
 
 5. 🌐 **Accéder à PermaBook depuis l’extérieur**
 - Par défaut, PermaBook n’est accessible que depuis localhost dans la VM.
-- Pour y accéder depuis votre machine personelle :
+- Pour y accéder depuis votre machine perso :
 
 ``` bash
 sudo ssh -L 80:127.0.0.1:80 user@<permabook_IP>
