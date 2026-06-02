@@ -51,4 +51,4 @@ python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
 
 📄 **Documentation**
 Une documentation plus complète est disponible ci-dessous : 
-📄 https://github.com/sbeteta42/permabook/blob/main/TP_install_permabook.pdf
+https://github.com/sbeteta42/permabook/blob/main/TP_install_permabook.pdf
