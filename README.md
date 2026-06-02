@@ -46,6 +46,7 @@ python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
   ``` bash
   ssh -L 80:127.0.0.1:80 user@<permabook_IP>
 ```
+
 - Ensuite, ouvrez dans votre navigateur : http://localhost/certa/permabook
 
 📄 **Documentation**
