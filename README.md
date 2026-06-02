@@ -195,10 +195,7 @@ curl https://raw.githubusercontent.com/sbeteta42/permabook/main/install.sh | sh 
 ## 🌐 Accès à PermaBook
 
 Par défaut, PermaBook est accessible localement depuis la VM à l’adresse suivante :
-
-```text
 http://localhost/certa/permabook
-```
 
 Si vous êtes connecté directement sur la VM avec une interface graphique, ouvrez simplement cette adresse dans le navigateur.
 
