@@ -39,8 +39,10 @@ mysql -u root permabook < /tmp/sitePermabook/permabook.sql
 echo "Installation de PERMABOOK terminé"
 echo -----------------------------------
 echo 
-echo 🌐 **Pour Accéder à PermaBook depuis l’extérieur de la VM**
-echo - Par défaut, PermaBook n’est accessible que depuis localhost dans la VM.
-echo - Pour y accéder depuis votre machine perso :
-echo - Sous Linux : sudo ssh -L 80:127.0.0.1:80 user@<permabook_IP>
-echo - Sous Windows : executer CMD en mode Adminstrateur : ssh -L 80:127.0.0.1:80 user@<permabook_IP>
+echo "🌐 **Pour Accéder à PermaBook depuis l’extérieur de la VM**"
+echo " - Par défaut, PermaBook n’est accessible que depuis localhost dans la VM."
+echo " - Pour y accéder depuis votre machine perso :"
+echo " - Sous Linux : sudo ssh -L 80:127.0.0.1:80 user@<permabook_IP>
+echo # - Sous Windows : executer CMD en mode Administrateur : ssh -L 80:127.0.0.1:80 user@<permabook_IP>
+echo "
+echo " - Ne fermer pas cette connexion SSH pendant la durée du TP ; le site web sera alors indisponible !"
