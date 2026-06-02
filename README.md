@@ -222,11 +222,7 @@ Exemple :
 sudo ssh -L 80:127.0.0.1:80 user@192.168.1.50
 ```
 
-Ensuite, ouvrir dans le navigateur :
-
-```text
-http://localhost/certa/permabook
-```
+Ensuite, ouvrir dans le navigateur : http://localhost/certa/permabook
 
 ---
 
