@@ -4,6 +4,7 @@
 ## 🚀 Pré-requis
 - **OS :** Debian 11 ou Ubuntu 20.04 Server
 - **Packages :** openssh-server, curl, git, megatools, python3-lxml
+---
 
 ```bash
 apt update -y && apt install git curl python3-lxml megatools -y
@@ -45,7 +46,7 @@ python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
   - *Votre environnement est Microsoft Windows*
   ``` bash
   ssh -L 80:127.0.0.1:80 user@<permabook_IP>
-  ```
+---  ```
 
 - Ensuite, ouvrez dans votre navigateur : http://localhost/certa/permabook
 
