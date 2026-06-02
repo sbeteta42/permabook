@@ -87,8 +87,7 @@ permabook/
 ├── install.sh
 ├── wp-fuzz.py
 ├── TP_install_permabook.pdf
-└── assets/
-    └── architecture-generale-permabook.png
+└── architecture-generale-permabook.png
 ```
 
 | Picto | Fichier                                      | Description                                        |
@@ -169,20 +168,7 @@ apt install -y git curl python3 python3-lxml megatools
 
 ---
 
-### 4. 📥 Clonage du dépôt
-
-```bash
-git clone https://github.com/sbeteta42/permabook.git
-cd permabook
-```
-
----
-
-### 5. ⚙️ Exécution du script d’installation
-
-```bash
-sh install.sh
-```
+### 4. ⚙️ Exécution du script d’installation
 
 Le script installe et configure les composants nécessaires :
 
