@@ -283,27 +283,6 @@ Cette commande teste les valeurs de `page_id` de `0` à `99` et affiche les page
 
 ---
 
-## 🧑‍🏫 Exemple de scénario pédagogique
-
-### 🧩 Contexte
-
-Vous êtes technicien cybersécurité dans un établissement de formation.
-Votre responsable vous demande d’installer une application Web pédagogique permettant d’étudier les problématiques liées aux données personnelles.
-
-### 📌 Travail demandé
-
-1. 🐧 Installer une VM Debian ou Ubuntu.
-2. ⚙️ Déployer PermaBook.
-3. 🌐 Vérifier l’accès local.
-4. 🔗 Mettre en place un tunnel SSH.
-5. 💻 Accéder à l’application depuis votre poste.
-6. 🔎 Identifier les pages accessibles.
-7. 🧪 Réaliser un test de fuzzing.
-8. 📝 Documenter les résultats.
-9. 🛡️ Proposer des mesures de sécurisation.
-
----
-
 ## 🛡️ Bonnes pratiques de sécurité
 
 Ce projet est prévu pour un usage pédagogique en environnement contrôlé.
@@ -415,7 +394,7 @@ Une documentation plus complète est disponible dans le fichier :
 TP_install_permabook.pdf
 ```
 
-Ce document peut être utilisé comme support de TP, fiche d’installation ou guide formateur.
+- Ce document peut être utilisé comme support de TP, fiche d’installation ou guide formateur.
 
 ---
 
@@ -448,7 +427,7 @@ Ce dépôt est destiné à un usage :
 * 🐧 administration système Linux ;
 * 📚 travaux pratiques encadrés.
 
-Il n’est pas destiné à être déployé tel quel en production.
+- Il n’est pas destiné à être déployé tel quel en production.
 
 ---
 
