@@ -237,11 +237,7 @@ Exemple :
 ssh -L 80:127.0.0.1:80 user@192.168.1.50
 ```
 
-Puis ouvrir dans le navigateur :
-
-```text
-http://localhost/certa/permabook
-```
+Puis ouvrir dans le navigateur : http://localhost/certa/permabook
 
 > ℹ️ Ne pas fermer la connexion SSH pendant le TP. Si le tunnel SSH est fermé, l’accès depuis la machine externe ne fonctionnera plus.
 
