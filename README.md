@@ -6,7 +6,7 @@
 - Packages : openssh-server, curl, git, megatools, python3-lxml
 
 ```bash
-apt update -y && apt install openssh-server git curl python3-lxml megatools -y
+apt update -y && apt install git curl python3-lxml megatools -y
 ```
 ## 🔧 Installation
 
