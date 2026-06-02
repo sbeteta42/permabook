@@ -50,6 +50,4 @@ python3 wp-fuzz.py http://localhost/certa/permabook page_id 100
 - Ensuite, ouvrez dans votre navigateur : http://localhost/certa/permabook
 
 📄 **Documentation**
-Une documentation plus complète est disponible ici :
-
-📄 https://github.com/sbeteta42/permabook/blob/main/TP_install_permabook.pdf
+Une documentation plus complète est disponible ici : 📄 https://github.com/sbeteta42/permabook/blob/main/TP_install_permabook.pdf
