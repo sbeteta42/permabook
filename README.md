@@ -11,7 +11,7 @@
 ## 🏗️ Architecture générale
 
 <p align="center">
-  <img src="./assets/architecture-generale-permabook.png" alt="Architecture générale de PermaBook" width="100%">
+  <img src="architecture-generale-permabook.png" alt="Architecture générale de PermaBook" width="100%">
 </p>
 
 <p align="center">
