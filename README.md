@@ -423,7 +423,7 @@ Ce dépôt est destiné à un usage :
 * 🐧 administration système Linux ;
 * 📚 travaux pratiques encadrés.
 
-- Il n’est pas destiné à être déployé tel quel en production.
+Il n’est pas destiné à être déployé tel quel en production.
 
 ---
 
